@@ -93,7 +93,7 @@ export default withMermaid({
         },
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/jonathanMelly/msig24'}
+            {icon: 'github', link: 'https://github.com/jonathanMelly/c-335-mobile'}
         ]
     },
     base: "/c-335-mobile/",//for gh pages
