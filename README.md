@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Échéances
       link: /echeances.html
+    - theme: brand
+      text: Évaluation
+      link: /evaluation.html
 
 features:
   - title: Projets
