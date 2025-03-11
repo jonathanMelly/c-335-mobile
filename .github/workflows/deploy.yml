@@ -42,12 +42,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      #- name: install chrome ext
-      #  run: node node_modules/puppeteer/install.js
-      # Dirty hack for chrome 127.0.6533.88 hard deps probably from pdf export ?
-      - name: check chrome for puppeteer
-        run: node node_modules/.pnpm/puppeteer@*/node_modules/puppeteer/install.mjs chrome@133.0.6943.98
-
       - name: Build with VitePress
         run: pnpm docs:build 
       
