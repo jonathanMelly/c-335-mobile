@@ -46,7 +46,10 @@ jobs:
       #  run: node node_modules/puppeteer/install.js
       # Dirty hack for chrome 127.0.6533.88 hard deps probably from pdf export ?
       - name: check chrome for puppeteer
-        run: node node_modules/.pnpm/puppeteer@*/node_modules/puppeteer/install.mjs chrome@127.0.6533.88
+        run:
+        - node node_modules/.pnpm/puppeteer@*/node_modules/puppeteer/install.mjs chrome@127.0.6533.88
+        - node node_modules/.pnpm/puppeteer@*/node_modules/puppeteer/install.mjs chrome@133.0.6943.98
+        - node node_modules/.pnpm/puppeteer@*/node_modules/puppeteer/install.mjs chrome
 
       - name: Build with VitePress
         run: pnpm docs:build 
