@@ -4,6 +4,9 @@
 ## Théorie
 
 ### Supports
+- [Horizon mobile](../supports/01-horizon-mobile.md)
+- [Anatomie MAUI](../supports/02-anatomie-maui.md)
+- [XAML](../supports/03-xaml.md)
 
 ### Slides
 - [Horizon mobile](../slides/intro/335-01-horizon-mobile.pptx)

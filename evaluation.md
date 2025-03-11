@@ -15,8 +15,8 @@ Développement pas à pas d’une application de type "flashcards" (aka quizlet)
   - Interview technique de 5-10 minutes 
 
 ### Prise de notes 📓
-Les éléments de théorie ne sont pas fournis, les élèves doivent prendre des notes
-qui prises en compte dans l’évaluation.
+Les éléments de théorie ne sont pas fournis, les élèves doivent **prendre des notes**
+qui sont prises en compte dans l’évaluation.
 
 ## Pondération 📊
 ![eval.png](assets/eval.png)
