@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <!-- Fond ciel -->
+  <rect width="300" height="400" fill="#87CEEB"/>
+  
+  <!-- Toit -->
+  <polygon points="0,100 150,0 300,100" fill="#B22222" stroke="black" stroke-width="2"/>
+  
+  <!-- Corps de la maison -->
+  <rect x="0" y="100" width="300" height="300" fill="#F4A460" stroke="black" stroke-width="2"/>
+  
+  <!-- Fenêtre gauche -->
+  <rect x="65" y="115" width="70" height="120" fill="#E0FFFF" stroke="black" stroke-width="1"/>
+  <line x1="65" y1="175" x2="135" y2="175" stroke="black" stroke-width="1"/>
+  <line x1="100" y1="115" x2="100" y2="235" stroke="black" stroke-width="1"/>
+  
+  <!-- Fenêtre droite -->
+  <rect x="165" y="115" width="70" height="120" fill="#E0FFFF" stroke="black" stroke-width="1"/>
+  <line x1="165" y1="175" x2="235" y2="175" stroke="black" stroke-width="1"/>
+  <line x1="200" y1="115" x2="200" y2="235" stroke="black" stroke-width="1"/>
+  
+  <!-- Porte -->
+  <rect x="100" y="250" width="100" height="150" fill="#8B4513" stroke="black" stroke-width="1"/>
+  <circle cx="120" cy="325" r="5" fill="gold"/>
+  
+  <!-- Cheminée -->
+  <rect x="220" y="60" width="20" height="40" fill="#696969" stroke="black" stroke-width="1"/>
+  
+  <!-- Soleil -->
+  <circle cx="270" cy="50" r="20" fill="yellow"/>
+  
+  <!-- Sol/herbe -->
+  <rect x="0" y="380" width="300" height="20" fill="#228B22"/>
+</svg>
