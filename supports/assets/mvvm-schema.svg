@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Boxes -->
+  <rect x="50" y="150" width="180" height="100" fill="#ff9999" rx="8" ry="8" stroke="#333" stroke-width="2"/>
+  <rect x="310" y="150" width="180" height="100" fill="#99ccff" rx="8" ry="8" stroke="#333" stroke-width="2"/>
+  <rect x="570" y="150" width="180" height="100" fill="#99ff99" rx="8" ry="8" stroke="#333" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="140" y="200" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">View</text>
+  <text x="140" y="225" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">(UI)</text>
+  
+  <text x="400" y="200" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">ViewModel</text>
+  <text x="400" y="225" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">(Intermédiaire)</text>
+  
+  <text x="660" y="200" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">Model</text>
+  <text x="660" y="225" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">(Données)</text>
+  
+  <!-- MVVM Toolkit Box -->
+  <rect x="250" y="40" width="300" height="60" fill="#e6e6fa" rx="8" ry="8" stroke="#6a5acd" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="75" font-family="Arial" font-size="20" text-anchor="middle" fill="#333">MVVM Toolkit</text>
+  <text x="400" y="95" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">[ObservableProperty], [RelayCommand]</text>
+  
+  <!-- Arrows -->
+  <path d="M230 180 L310 180" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M310 220 L230 220" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M490 180 L570 180" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M570 220 L490 220" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Binding Labels -->
+  <text x="270" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Data Binding</text>
+  <text x="270" y="235" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">User Events</text>
+  <text x="530" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Update</text>
+  <text x="530" y="235" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Query</text>
+  
+  <!-- Helper elements for arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Toolkit vertical arrows -->
+  <path d="M400 100 L400 150" stroke="#6a5acd" stroke-width="2" stroke-dasharray="5,5" fill="none" marker-end="url(#purpleArrow)"/>
+  
+  <defs>
+    <marker id="purpleArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6a5acd"/>
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Pattern MVVM avec MVVM Toolkit</text>
+</svg>
