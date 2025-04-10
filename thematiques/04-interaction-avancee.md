@@ -9,6 +9,7 @@ en utilisant les animations...
 
 ### Supports
 - [Animation](../supports/10-animation.md)
+- [Accéléromètre](../supports/11-accelero.md)
 
 ### Slides
 - [PPT Animation](https://eduvaud-my.sharepoint.com/:p:/g/personal/jonathan_melly_eduvaud_ch/EZQ_3HmPGJZLlOUDKOeRoYYBuWullYh22hpqDWmtegahqA?e=lIoyjw)
@@ -20,3 +21,4 @@ en utilisant les animations...
 ## Activités
 - [ ] [Animation basique](https://labs.section-inf.ch/codelabs/mobile-06-animation/index.html?index=..%2F..index#0)
 - [ ] [Flip](../activites/flip/README.md)
+- [ ] [Accelero](https://labs.section-inf.ch/codelabs/mobile-07-sensor/index.html?index=..%2F..index#0)
