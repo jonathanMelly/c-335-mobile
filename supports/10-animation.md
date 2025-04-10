@@ -56,6 +56,7 @@ Lorsque la page est initialisée, le code-behind récupère le ViewModel à part
 connexions nécessaires :
 
 ```csharp
+
 var vm = BindingContext as AnimateViewModel;
 if (vm != null)
 {
@@ -74,7 +75,7 @@ Code-behind).
   la Vue).
 
 - **Actions** : Les méthodes d'animation définies dans le code-behind sont exposées au ViewModel via des délégués
-  Action<int> (représentées par les flèches orange).
+  Action&lt;int&gt; (représentées par les flèches orange).
 
 ##### 3. Déclenchement des animations
 
@@ -350,7 +351,7 @@ Un **délégué** en C# est un type qui représente des références à des mét
 retour spécifiques. Les délégués permettent de passer des méthodes en tant que paramètres à d'autres méthodes, ce qui
 est fondamental pour les modèles de conception basés sur les événements.
 
->Autrement dit, une action représente un *nouveau* type `fonction` au même titre que *int* est un type pour des nombres
+> Autrement dit, une action représente un *nouveau* type `fonction` au même titre que *int* est un type pour des nombres
 entiers...
 
 **Action** est un type de délégué générique prédéfini en C# qui encapsule une méthode ne retournant aucune valeur (
