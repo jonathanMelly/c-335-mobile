@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Définition des styles -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    <marker id="dashed-arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+  
+  <!-- Arrière-plan -->
+  <rect width="800" height="600" fill="#f9f9f9" />
+  
+  <!-- Boîtes principales -->
+  <rect x="80" y="130" width="240" height="260" rx="10" ry="10" fill="#e1f5fe" stroke="#0288d1" stroke-width="2" />
+  <rect x="480" y="130" width="240" height="260" rx="10" ry="10" fill="#f3e5f5" stroke="#8e24aa" stroke-width="2" />
+  <rect x="280" y="450" width="240" height="110" rx="10" ry="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+  
+  <!-- Titres -->
+  <text x="200" y="110" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">ViewModel</text>
+  <text x="600" y="110" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Code-Behind</text>
+  <text x="400" y="440" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Vue (XAML)</text>
+  
+  <!-- Contenu ViewModel -->
+  <rect x="100" y="160" width="200" height="40" rx="5" ry="5" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" />
+  <text x="200" y="185" font-family="Arial" font-size="14" text-anchor="middle">Properties (Speed, Toggled)</text>
+  
+  <rect x="100" y="210" width="200" height="40" rx="5" ry="5" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" />
+  <text x="200" y="235" font-family="Arial" font-size="14" text-anchor="middle">Commands (MoveBoxCommand)</text>
+  
+  <rect x="100" y="260" width="200" height="40" rx="5" ry="5" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" />
+  <text x="200" y="275" font-family="Arial" font-size="12" text-anchor="middle">Action&lt;int&gt;?</text>
+  <text x="200" y="290" font-family="Arial" font-size="12" text-anchor="middle">RotateBoxUIAction</text>
+  
+  <rect x="100" y="310" width="200" height="40" rx="5" ry="5" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" />
+  <text x="200" y="325" font-family="Arial" font-size="12" text-anchor="middle">Action&lt;int&gt;?</text>
+  <text x="200" y="340" font-family="Arial" font-size="12" text-anchor="middle">MoveBoxAction</text>
+  
+  <!-- Contenu Code-Behind -->
+  <rect x="500" y="160" width="200" height="40" rx="5" ry="5" fill="#e1bee7" stroke="#8e24aa" stroke-width="1" />
+  <text x="600" y="185" font-family="Arial" font-size="14" text-anchor="middle">Initialisation ViewModel</text>
+  
+  <rect x="500" y="210" width="200" height="40" rx="5" ry="5" fill="#e1bee7" stroke="#8e24aa" stroke-width="1" />
+  <text x="600" y="235" font-family="Arial" font-size="14" text-anchor="middle">Définition des Actions</text>
+  
+  <rect x="500" y="260" width="200" height="40" rx="5" ry="5" fill="#e1bee7" stroke="#8e24aa" stroke-width="1" />
+  <text x="600" y="275" font-family="Arial" font-size="12" text-anchor="middle">RotateUI(int angle)</text>
+  <text x="600" y="290" font-family="Arial" font-size="12" text-anchor="middle">box.RotateTo(angle)</text>
+  
+  <rect x="500" y="310" width="200" height="40" rx="5" ry="5" fill="#e1bee7" stroke="#8e24aa" stroke-width="1" />
+  <text x="600" y="325" font-family="Arial" font-size="12" text-anchor="middle">MoveUI(int direction)</text>
+  <text x="600" y="340" font-family="Arial" font-size="12" text-anchor="middle">box.TranslateTo(...)</text>
+  
+  <!-- Contenu Vue -->
+  <rect x="300" y="470" width="200" height="70" rx="5" ry="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1" />
+  <text x="400" y="495" font-family="Arial" font-size="14" text-anchor="middle">BoxView x:Name="box"</text>
+  <text x="400" y="515" font-family="Arial" font-size="14" text-anchor="middle">Contrôles UI (Switch, Buttons)</text>
+  
+  <!-- Flèches de liaison -->
+  <line x1="200" y1="390" x2="300" y2="470" stroke="#333" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#dashed-arrowhead)" />
+  <text x="240" y="430" font-family="Arial" font-size="14">Data Binding</text>
+  
+  <line x1="600" y1="390" x2="500" y2="470" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="560" y="430" font-family="Arial" font-size="14">Manipule UI</text>
+  
+  <!-- Action ViewModel -> Code-Behind -->
+  <line x1="300" y1="280" x2="500" y2="280" stroke="#ff5722" stroke-width="3" marker-end="url(#arrowhead)" />
+  <text x="400" y="270" font-family="Arial" font-size="16" fill="#d84315" font-weight="bold" text-anchor="middle">Action: RotateUI(angle)</text>
+  
+  <line x1="300" y1="330" x2="500" y2="330" stroke="#ff5722" stroke-width="3" marker-end="url(#arrowhead)" />
+  <text x="400" y="360" font-family="Arial" font-size="16" fill="#d84315" font-weight="bold" text-anchor="middle">Action: MoveUI(direction)</text>
+  
+  <!-- Association Code-Behind -> ViewModel -->
+  <path d="M 500 180 C 450 180, 450 150, 400 150 C 350 150, 350 180, 300 180" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <text x="400" y="140" font-family="Arial" font-size="14" text-anchor="middle">vm.RotateBoxUIAction = RotateUI</text>
+</svg>

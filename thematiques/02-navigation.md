@@ -14,6 +14,6 @@
 - [Layouts](https://eduvaud-my.sharepoint.com/:p:/g/personal/jonathan_melly_eduvaud_ch/EXZRrhj_bpZKn_dnId7NPXIBDWN5WpuMPrRfikhj1nGrnA?e=Oz51Dc)
 
 ## Activités
-- [Menu](../activites/menu/README.md)
-- [A propos](../activites/apropos/README.md)
-- [Visage](../activites/visage/README.md)
+- [X] [Menu](../activites/menu/README.md)
+- [X] [A propos](../activites/apropos/README.md)
+- [X] [Visage](../activites/visage/README.md)
