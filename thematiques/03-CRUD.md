@@ -22,6 +22,6 @@
 
 1. [ ] [MVVM](https://labs.section-inf.ch/codelabs/mobile-03-mvvm1/index.html?index=..%2F..index)
 2. [ ] [ListView **C**reate**R**ead](https://labs.section-inf.ch/codelabs/mobile-04-mvvm2/index.html?index=..%2F..index)
-3. [ ] [**U**pdate**D**elete](https://labs.section-inf.ch/codelabs/mobile-05-crud1/index.html?index=..%2F..index)
+3. [ ] [**U**pdate**D**elete > Persistence](https://labs.section-inf.ch/codelabs/mobile-05-crud1/index.html?index=..%2F..index)
 
 
