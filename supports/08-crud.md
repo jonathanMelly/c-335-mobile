@@ -80,6 +80,7 @@ using CardsApp.Models;
 
 namespace CardsApp.Services
 {
+    public static CardService instance = new CardService();
     public class CardService
     {
         // Collection en mémoire RAM pour stocker les cartes
@@ -147,7 +148,7 @@ namespace CardsApp.ViewModels
 {
     public partial class CardsViewModel : ObservableObject
     {
-        private readonly CardService _cardService;
+        private readonly CardService _cardService = CardService.Instance;
 
         [ObservableProperty]
         private ObservableCollection<Card> _cards;
@@ -164,9 +165,8 @@ namespace CardsApp.ViewModels
         [ObservableProperty]
         private bool _isEditing;
 
-        public CardsViewModel(CardService cardService)
+        public CardsViewModel()
         {
-            _cardService = cardService;
             Cards = new ObservableCollection<Card>();
             LoadCards();
         }
@@ -379,7 +379,7 @@ namespace CardsApp.Converters
 
 ## 5. Configuration de l'Application
 
-Dans le fichier `MauiProgram.cs`, nous enregistrons nos services et ViewModels pour l'injection de dépendances.
+Dans le fichier `MauiProgram.cs`, on enregistre le convertisseur.
 
 ```csharp
 using Microsoft.Extensions.Logging;
@@ -407,15 +407,6 @@ public static class MauiProgram
         {
             { "InvertedBoolConverter", new Converters.InvertedBoolConverter() }
         });
-
-        // Enregistrer le service de gestion des cartes
-        builder.Services.AddSingleton<CardService>();
-        
-        // Enregistrer le ViewModel
-        builder.Services.AddTransient<CardsViewModel>();
-        
-        // Enregistrer la page
-        builder.Services.AddTransient<CardsPage>();
 
 #if DEBUG
         builder.Logging.AddDebug();
