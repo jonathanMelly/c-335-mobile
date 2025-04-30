@@ -18,6 +18,9 @@
 - [CRUD](https://eduvaud-my.sharepoint.com/:p:/g/personal/jonathan_melly_eduvaud_ch/ERG7KDRhoelFngBf9bRbnaEBxp9S0o-PUCQsgBMa3XQ8Yg?e=qPaylv)
 - [SQLite](https://eduvaud-my.sharepoint.com/:p:/g/personal/jonathan_melly_eduvaud_ch/EfOweX5hs5tHjqPIIcnxFxoBBqo_BYbszqYmy1xFYpGOSw?e=yvZ0gz)
 
+## Synthèse
+- [Récap 1](https://eduvaud.sharepoint.com/:p:/s/msteams_d0db31/Edir3t8BDNJEhNummU3KMxYBymZeN2Agw4agnx3gO6t6Gw?e=XApwi3)
+
 ## Activités
 
 1. [ ] [MVVM](https://labs.section-inf.ch/codelabs/mobile-03-mvvm1/index.html?index=..%2F..index)
