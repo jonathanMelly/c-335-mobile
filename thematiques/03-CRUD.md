@@ -21,6 +21,10 @@
 ## Synthèse
 - [Récap 1](https://eduvaud.sharepoint.com/:p:/s/msteams_d0db31/Edir3t8BDNJEhNummU3KMxYBymZeN2Agw4agnx3gO6t6Gw?e=XApwi3)
 
+## Bug du scroll d'une collectionView
+Avec MAUI8, il fallait ajouter "FillAndExpand" et avec MAUI9, il faut définir un "HeightRequest" dans le composant "CollectionView".
+[Référence](https://learn.microsoft.com/en-us/answers/questions/1200032/collectionview-cant-scroll)
+
 ## Activités
 
 1. [ ] [MVVM](https://labs.section-inf.ch/codelabs/mobile-03-mvvm1/index.html?index=..%2F..index)
